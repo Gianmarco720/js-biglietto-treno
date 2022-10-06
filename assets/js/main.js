@@ -21,9 +21,6 @@ if (userAge >= 65) {
     let discount = ((ticketPrice * 20) / 100);
     ticketPrice = ticketPrice - discount;
     //console.log(`Il prezzo totale del biglietto è: ${ticketPrice.toFixed(2)} €`);
-} else {
-    ticketPrice = ticketPrice;
-    //console.log(`Il prezzo totale del biglietto è: ${ticketPrice.toFixed(2)} €`);
 }
 
 // output km
