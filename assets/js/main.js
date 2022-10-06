@@ -26,4 +26,8 @@ if (userAge >= 65) {
     //console.log(`Il prezzo totale del biglietto è: ${ticketPrice.toFixed(2)} €`);
 }
 
-document.getElementById('km').innerHTML = `Il prezzo totale del biglietto è: ${ticketPrice.toFixed(2)} €`
+// output km
+document.getElementById('km').innerHTML = `Chilometri totali: ${userKm} km`;
+
+// output prezzo
+document.getElementById('price').innerHTML = `Il prezzo totale del biglietto è: ${ticketPrice.toFixed(2)} €`;
